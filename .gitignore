@@ -1,0 +1,17 @@
+# Telegram Session Files (Contains your login - DO NOT SHARE)
+*.session
+*.session-journal
+
+# Progress Tracking Logs
+last_id_*.txt
+
+# Python cache and temporary files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local environment settings
+.env
+.venv/
+env/
+venv/
