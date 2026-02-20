@@ -1,4 +1,3 @@
-
 # TG_Chat_Cloner 🚀
 
 I built this tool to archive content from Telegram channels and supergroups. It is specifically designed to handle "restricted" content that normally cannot be forwarded, making it perfect for personal backups of educational materials or media. 
@@ -14,13 +13,36 @@ This version includes **real-time progress bars** so you can monitor download sp
 * **Flood Protection:** Built-in delays and error handling for Telegram's rate limits to keep your account safe.
 
 ## 🛠️ Prerequisites
-* **Python 3.8+**
+* **Python 3.8+** (Ensure "Add to PATH" is checked during Windows installation)
 * A Telegram account and your own API keys (get them at [my.telegram.org](https://my.telegram.org)).
-* Libraries: `pyrogram`, `tgcrypto`, and `tqdm`.
 
-## 📦 Installation
-1. Clone this repository to your local machine.
-2. Install the required dependencies:
+## 📦 Installation & Setup
+
+### 1. Clone the repository
+Download the files to your computer.
+
+### 2. Create a Virtual Environment (Recommended)
+This keeps the project dependencies isolated.
+
+**On Windows:**
+```bash
+python -m venv venv
+.\venv\Scripts\activate
+
+```
+
+**On Linux/Mac:**
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+
+```
+
+### 3. Install Requirements
+
+Once your virtual environment is active, install the libraries:
+
 ```bash
 pip install -r requirements.txt
 
