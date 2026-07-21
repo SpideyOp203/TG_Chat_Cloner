@@ -49,7 +49,7 @@ source venv/bin/activate
 
 **On Windows (Command Prompt / PowerShell):**
 
-# Create the virtual environment
+### Create the virtual environment
 ```bash
 python -m venv venv
 ```
