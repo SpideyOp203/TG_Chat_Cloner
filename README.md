@@ -36,13 +36,12 @@ To prevent dependency conflicts with other Python projects on your system, creat
 
 **On Linux / macOS:**
 
-Bash
-# Create the virtual environment
+### Create the virtual environment
 ```bash 
 python3 -m venv venv
 
 ```
-# Activate the virtual environment
+### Activate the virtual environment
 
 ```bash
 source venv/bin/activate
@@ -50,18 +49,17 @@ source venv/bin/activate
 
 **On Windows (Command Prompt / PowerShell):**
 
-DOS
 # Create the virtual environment
 ```bash
 python -m venv venv
 ```
 
-# Activate on Command Prompt:
+### Activate on Command Prompt:
 ```bash
 venv\Scripts\activate.bat
 ```
 
-# OR Activate on PowerShell:
+### OR Activate on PowerShell:
 ```bash 
 .\venv\Scripts\Activate.ps1
 ```
@@ -195,7 +193,7 @@ Remove-Item *.session, *.session-journal, *.txt, config.json -ErrorAction Silent
 
 (Once deleted, your local folder is completely clean and retains no memory of your account or API keys).
 
-###Step 3: Revoke Access from Telegram (Kill Active Session)
+### Step 3: Revoke Access from Telegram (Kill Active Session)
 Even after deleting local files, the MTProto authorization hash remains technically valid on Telegram's servers until revoked. To permanently terminate the session:
 
 1. Open the official Telegram app on your phone or desktop.
